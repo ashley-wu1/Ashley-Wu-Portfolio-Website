@@ -1,10 +1,11 @@
-import './css/App.css';
-import React, {useState} from "react";
-import {} from './components/website.js'
+import logo from './logo.svg';
+import './App.css';
+import {Header} from './website.js';
+
 function App() {
   return (
-    <div className="body">
-        
+    <div className="App">
+      <Header />
     </div>
   );
 }
