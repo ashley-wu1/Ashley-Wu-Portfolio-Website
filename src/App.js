@@ -1,11 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
-import {Header} from './website.js';
+import './css/App.css';
+import {Header, Footer} from './components/website.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Footer />
     </div>
   );
 }
