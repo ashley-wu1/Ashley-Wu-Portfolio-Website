@@ -5,3 +5,10 @@
     min-width: 400px;
     min-height: 100vh;
 }
+
+.banner{
+    position:fixed;
+    backgroundColor:coral;
+    height:10vw;
+    width: 100%;
+}
